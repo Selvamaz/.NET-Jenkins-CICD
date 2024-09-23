@@ -13,11 +13,11 @@ Jenkins CICD for C# .NET Project
 
 ## Stage 1 : Clone Repository
 To retrieve the latest code from the specified GitHub repository
-    ```stage('Clone Repository') {
-            steps {
-                git 'https://github.com/Selvamaz/.NET-Jenkins-CICD.git'
-            }
-        }``` 
+    ```stage('Clone Repository') {<br>
+            steps {<br>
+                git 'https://github.com/Selvamaz/.NET-Jenkins-CICD.git'<br>
+            }<br>
+        }``` <br>
 
 ## Stage 2 : Build
 To restore dependencies and compile the application into an executable format. 
